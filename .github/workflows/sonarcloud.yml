@@ -14,6 +14,7 @@ jobs:
         uses: subosito/flutter-action@v2 # Action to set up Flutter
         with:
           channel: 'stable'
+          flutter-version: 2.0.0
       # The analysis requires to retrieve dependencies and build successfully
       - name: Build
         run: flutter pub get
